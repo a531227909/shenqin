@@ -45,13 +45,4 @@ public class TAreaController {
         return result;
     }
 
-    @RequestMapping(value="/test0007")
-    @ResponseBody
-    public Result test007(String level){
-        Result result = new Result();
-        result.setCode("007");
-        result.setMsg("test0007");
-        return result;
-    }
-
 }
